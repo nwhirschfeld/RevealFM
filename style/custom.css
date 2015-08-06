@@ -1,0 +1,10 @@
+.reveal h1 { 
+  font-size: 1.7em;
+  border-bottom: 0.07em solid white;
+}
+.reveal h2 { 
+  font-size: 1.3em;
+}
+.reveal h3 { 
+  font-size: 0.9em;
+}

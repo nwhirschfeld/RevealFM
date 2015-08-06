@@ -1,0 +1,7 @@
+<% if has_icon @node, "attach" %>
+        <img src="<%= @title %>">
+<% else %>
+        <div>
+                <%= XmlSimple.xml_out @title["richcontent"] %>
+        </div>
+<% end %>
